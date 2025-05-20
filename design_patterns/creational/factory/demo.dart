@@ -1,3 +1,5 @@
+// https://refactoring.guru/design-patterns/factory-method
+
 import 'dart:io';
 
 import 'macos_button_factory.dart';
