@@ -9,8 +9,8 @@ void main() {
   final Person bobWithHat = HatDecorator(SimplePerson('Bob'));
   print(bobWithHat.describe());
 
-  final Person bobWithCoat = CoatDecorator(bobWithHat);
-  print(bobWithCoat.describe());
+  final Person bobWithCoatAndHat = CoatDecorator(bobWithHat);
+  print(bobWithCoatAndHat.describe());
 
   final Person mikeWithCoat = CoatDecorator(SimplePerson('Mike'));
   print(mikeWithCoat.describe());
